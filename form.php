@@ -29,7 +29,7 @@
     </div>
     <div>
         <label for="subject">Sujet :</label>
-        <select type="tel" id="subject" name="user_subject">
+        <select id="subject" name="user_subject">
             <option value="candidature">Candidature</option>
             <option value="stage">Stage</option>
             <option value="other">Autre</option>
@@ -43,8 +43,6 @@
         <button type="submit">Envoyer votre message</button>
     </div>
 </form>
-<?php echo $_POST['user_name']; ?>
-
 
 </body>
 </html>
